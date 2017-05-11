@@ -1,0 +1,26 @@
+<section class="eventdetails">
+    <h1 class="eventname"> {{event.eventName}}</h1>
+    <!--<img class = "eventpic" src="">-->
+    <div class="mainevent" *ngIf="event">
+        <P>Date:{{event.eventDate}}</P>
+        <p class="eventPrice">
+            Price: ${{event.eventPrice}}
+        </p>
+        <P>Street:{{event.eventLocation.eventStreet}}</P>
+        <p>Zip: {{event.eventLocation.eventZip}}</p>
+        <p>City: {{event.eventLocation.eventCity}}</p>
+        <br/>
+    </div>
+    <section class="eventdetails2">
+        <div class="mainevent2" *ngIf="event">
+            <p>Description: {{event.eventDescription}}</p>
+            <p>Organization Name:{{event.Organization.organizationName}} {{event.Organization.orgainizationType}}</p>
+            <p>Organization Address: {{event.Organization.organizationAddress}} {{event.Organization.organizationCity}} {{event.Organization.organizationZip}}</p>
+            <p>Organization Description:{{event.Organization.organizationDescription}}</p>
+            <br/>
+            <p>Organizor Name: {{event.Organizor.organizorFirstName}} {{event.Organizor.organizorLastName}}</p>
+            <p>Phone:{{event.Organizor.organizorPhone}}</p>
+            <p>Email:{{event.Organizor.organizorEmail}}</p>
+        </div>
+    </section>
+</section>

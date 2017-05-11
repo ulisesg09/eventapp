@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.Main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+html {
+    background-image: url('../assets/images/background.jpg');
+    background-size: cover;
+}
+
+.main-header {
+    background-color: lightblue;
+    height: 100px;
+    width: 100%;
+}
+
+.event-feed {
+    width: 80%;
+    flex: 1;
+    height: 1200px;
+}
+
+.main-footer {
+    background-color: lightblue;
+    height: 100 px;
+}
