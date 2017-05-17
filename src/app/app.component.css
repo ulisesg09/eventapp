@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div.wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+html {
+    background-image: url('../assets/images/background.jpg');
+    background-size: cover;
+    display: block;
+}
+
+.main-header {
+    background-color: lightblue;
+    height: 100px;
+    width: 100%;
+    display: block;
+    border-color: black;
+}
+
+.event-feed {
+    width: 80%;
+    flex: 1;
+    height: 1200px;
+    position: relative;
+}
+
+.main-footer {
+    background-color: lightblue;
+    height: 100 px;
+    margin: 0 auto;
+    overflow: auto;
+    max-width: 80%;
+}

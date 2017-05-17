@@ -1,0 +1,21 @@
+
+.table-main{
+width:150;
+margin-left: 25%;
+background-color: lightblue;
+border:1px solid whitesmoke;
+}
+table.table-main th{
+    width:700px;
+}
+table.table-main tr {
+    height:100px;
+    width:700px !important;
+    padding:15px 15px;
+    background-color: white;
+    border:1px solid white;
+}
+.event-image {
+    height:100px;
+    width:100px;
+}
